@@ -1,3 +1,17 @@
+=== Plugin Name ===
+Contributors: Ahmad Kharbat
+Donate link: http://dakwak.com/
+Tags: localization, SEO
+Requires at least: 3.0.1
+Tested up to: 3.4
+Stable tag: 4.3
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Dakwak Wordpress Plugin integrates Dakwak.com service with Wordpress. Dakwak provides effortless website translation.
+
+== Description ==
+
 Dakwak Wordpress Plugin integrates Dakwak.com service with Wordpress. Dakwak provides effortless website translation.
 
 SEO Friendly:
@@ -11,11 +25,19 @@ Quality Translation:
 Machine translation comes for free with your subscription. And if you want to improve the quality, you can edit the translation directly on our platform, or with a single click of a button have it professionally translated and automatically published on your translated website.
 
 
-INSTALLATION STEPS:
+== Installation ==
 
-1- Download and extract pluing to the directory wp-content/plugins/dakwak
-2- Activate plugin from Wordpress admin interface
-3- Go to Appearance > Widgets
-4- Drag and Drop Dakwak Widget in the preferred region
-5- Fill the Dakwak Widget settings form which will create a new Dakwak user with the chosen translation settings.
-6- Save settings.
+1. Download and extract pluing to the directory wp-content/plugins/dakwak
+2. Activate plugin from Wordpress admin interface
+3. Go to Appearance > Widgets
+4. Drag and Drop Dakwak Widget in the preferred region
+5. Fill the Dakwak Widget settings form which will automatically Create or Retrieve a Dakwak user with the chosen translation settings.
+6. Save settings.
+
+
+== Screenshots ==
+
+1. /assets/screenshot-1.png
+
+== Changelog ==
+

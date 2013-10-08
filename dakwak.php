@@ -6,7 +6,7 @@ Description: Translate your website with crowdsourcing.
 Version: 0.01
 Author: Dakwak
 Author URI: http://dakwak.com
-License: A "Slug" license name e.g. GPL2
+License: GPLv2
 */
 
 class wp_dakwak extends WP_Widget {
