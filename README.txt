@@ -1,4 +1,4 @@
-Integrates Dakwak.com service with Wordpress. Dakwak provides effortless website translation.
+Dakwak Wordpress Plugin integrates Dakwak.com service with Wordpress. Dakwak provides effortless website translation.
 
 SEO Friendly:
 Your translated website will be search engine visible in 60 languages, allowing people who search in their native language to find your translated website in the search engine results. This means more leads, more customers, and more sales.
