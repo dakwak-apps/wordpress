@@ -14,6 +14,9 @@ Dakwak Wordpress Plugin integrates Dakwak.com service with Wordpress. Dakwak pro
 
 Dakwak Wordpress Plugin integrates Dakwak.com service with Wordpress. Dakwak provides effortless website translation.
 
+
+Features of Dakak:
+
 SEO Friendly:
 Your translated website will be search engine visible in 60 languages, allowing people who search in their native language to find your translated website in the search engine results. This means more leads, more customers, and more sales.
 
@@ -42,6 +45,15 @@ Yes. It does create a Dakwak user based on the settings.
 
 2. What if I am an existing Dakwak user?
 The plugin attempts to retrieve your settings based on your E-mail/URL information.
+
+
+
+== Technical Information ==
+
+1. The plugin (server-side) communicates with Dakwak.com API `http://widget.dakwak.com/api/` in order to create/retrieve your settings.
+2. The Dakwak widget will call an external javascript that displays the translation widget.
+3. The widget script is called in the code using:
+http://widget.dakwak.com/api/websites/<api_key>/widget
 
 
 == Screenshots ==
