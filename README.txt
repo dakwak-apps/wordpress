@@ -35,6 +35,15 @@ Machine translation comes for free with your subscription. And if you want to im
 6. Save settings.
 
 
+== Frequently Asked Questions ==
+
+1. Does the plugin create a new Dakwak user for me?
+Yes. It does create a Dakwak user based on the settings.
+
+2. What if I am an existing Dakwak user?
+The plugin attempts to retrieve your settings based on your E-mail/URL information.
+
+
 == Screenshots ==
 
 1. /assets/screenshot-1.png
