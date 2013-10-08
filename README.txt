@@ -39,5 +39,8 @@ Machine translation comes for free with your subscription. And if you want to im
 
 1. /assets/screenshot-1.png
 
+
 == Changelog ==
 
+= 0.01 =
+* Initial Dakwak plugin release.
