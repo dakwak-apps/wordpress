@@ -11,7 +11,7 @@ License: A "Slug" license name e.g. GPL2
 
 class wp_dakwak extends WP_Widget {
 
-    var $domain = 'http://f3.f.us.dakwak.com/api/';
+    var $domain = 'http://widget.dakwak.com/api/';
     var $userExists = false;
     var $website_apikey = '';
     var $messages;
@@ -127,17 +127,17 @@ class wp_dakwak extends WP_Widget {
             $url = "{$this->domain}websites/{$instance['website_apikey']}.json";
             $request = wp_remote_post($url, $args);
             $response = json_decode($request['body']);
-            $response = (array)$response;
+            $response = $response;
 
-            if(is_wp_error($request) || isset($response['error'])) {
+            if(is_wp_error($request) || isset($response->error)) {
                 $html = '<div class="updated">';
-                $html .= __( 'Saving settings failed: ' . $response['error'], 'wp_dakwak' );
-                $html .= '</div><!-- /#post-error -->';
+                $html .= __( 'Dakwak: Saving settings failed: ' . $response->error, 'wp_dakwak' );
+                $html .= '</div>';
                 $instance['messages'][] = $html;
             } else {
                 $html = '<div class="updated">';
                 $html .= __( 'Settings updated.', 'wp_dakwak' );
-                $html .= '</div><!-- /#post-error -->';
+                $html .= '</div>';
                 $instance['messages'][] = $html;
             }
 
@@ -145,17 +145,17 @@ class wp_dakwak extends WP_Widget {
             $url = "{$this->domain}users/new.json";
             $request = wp_remote_post($url, $args);
             $response = json_decode($request['body']);
-            $response = (array)$response;
+            $response = $response;
 
-            if(is_wp_error($request) || isset($response['error'])) {
+            if(is_wp_error($request) || isset($response->error)) {
                 $html = '<div class="updated">';
-                $html .= __( 'Saving settings failed: ' . $response['error'], 'wp_dakwak' );
-                $html .= '</div><!-- /#post-error -->';
+                $html .= __( 'Dakwak: Saving settings failed: ' . $response->error, 'wp_dakwak' );
+                $html .= '</div>';
                 $instance['messages'][] = $html;
             } else {
                 $html = '<div class="updated">';
-                $html .= __( 'New dakwak user created', 'wp_dakwak' );
-                $html .= '</div><!-- /#post-error -->';
+                $html .= __( 'Dakwak: New dakwak user created', 'wp_dakwak' );
+                $html .= '</div>';
                 $instance['messages'][] = $html;
             }
 
